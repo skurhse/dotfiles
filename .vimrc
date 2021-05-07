@@ -1,17 +1,17 @@
 syntax enable 
 
-# display
+" display
 set number
 
-# search
+" search
 set hlsearch
 set ignorecase
 set incsearch
 
-# indentation
+" indentation
 set expandtab
 set tabstop=2
 set shiftwidth=2
 
-# mappings
+" mappings
 inoremap jk <ESC>
