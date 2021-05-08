@@ -1,0 +1,17 @@
+[credential "https://github.com"]
+	helper = !gh auth git-credential
+[user]
+	email = 8763488+drruruu@users.noreply.github.com
+	name = drruruu
+[web]
+	browser = wslview
+[browser "wslview"]
+	path = /usr/bin/wslview
+	cmd = wslview
+[help]
+	format = web
+[core]
+	editor = vim
+[alias]
+	wdiff = diff --word-diff --word-diff-regex='[^/[:space:]]'
+	wlog = log -p -1 --word-diff --word-diff-regex='[^/[:space:]]'
