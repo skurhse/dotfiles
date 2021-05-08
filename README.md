@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles for bash, vim &amp; tmux
+dotfiles for bash, git, vim &amp; tmux
