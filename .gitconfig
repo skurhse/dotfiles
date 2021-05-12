@@ -2,7 +2,7 @@
 	wdiff = diff --word-diff
 	wlog = log --word-diff
 [browser "wslview"]
-  cmd = wslview
+	cmd = wslview
 [core]
 	editor = vim
 [credential "https://github.com"]
