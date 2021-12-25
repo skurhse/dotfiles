@@ -1,4 +1,4 @@
-## How to enumerate dotfiles?
+## Enumerating dotfiles:
 
 ### Pipe
 ```bash
