@@ -1,18 +1,17 @@
-## enumerating dotfiles
+## How to enumerate dotfiles?
 
-### loop
+### Pipe
 ```bash
-for dotfile in ~/.[^.]*
-do
+find ~/.[^.]* -maxdepth 0 -type f | xargs -I{} echo "{}"
+```
+
+### Loop
+```bash
+for dotfile in ~/.[^.]*; do
   if [[ ! -f $dotfile ]]; then
     continue
   fi
   
   echo "$dotfile"
 done
-```
-
-### pipe
-```bash
-find ~/.[^.]* -maxdepth 0 -type f | xargs -I{} echo "{}"
 ```
