@@ -1,2 +1,4 @@
-# dotfiles
-dotfiles for bash, git, vim &amp; tmux
+for f in ~/.[^.]*
+do
+  echo "$f"
+done
