@@ -1,6 +1,18 @@
+## enumerating dotfiles
+
+### loop
 ```bash
-for f in ~/.[^.]*
+for dotfile in ~/.[^.]*
 do
-  echo "$f"
+  if [[ ! -f $dotfile ]]; then
+    continue
+  fi
+  
+  echo "$dotfile"
 done
+```
+
+### pipe
+```bash
+find ~/.[^.]* -maxdepth 0 -type f | xargs -I{} echo "{}"
 ```
