@@ -1,4 +1,4 @@
-## Enumerating dotfiles:
+## Enumerating dotfiles
 
 ### Pipe
 ```bash
