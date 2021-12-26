@@ -62,6 +62,7 @@ execute pathogen#infect()
 " SYNTASTIC
 " ~~~~~~~~~
 
+" SEE: https://github.com/vim-syntastic/syntastic#3-recommended-settings <>
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
