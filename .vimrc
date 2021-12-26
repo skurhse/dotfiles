@@ -10,6 +10,15 @@ syntax enable
 " Same as :print, but precede each line with its line number.
 set number
 
+" FILETYPE
+" ~~~~~~~~
+
+" You can enable loading the plugin files for specific file types with:
+filetype plugin on
+
+" You can enable loading the indent file for specific file types with:
+filetype indent on
+
 " SEARCH
 " ~~~~~~
 
