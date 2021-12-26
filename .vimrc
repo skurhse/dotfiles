@@ -1,3 +1,4 @@
+" REQ: Vim config for use with pathogen and syntastic. <skr 2021-12-35>
 " ..............................................................................
 
 " DISPLAY
