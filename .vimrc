@@ -1,25 +1,57 @@
+" ..............................................................................
+
+" DISPLAY
+" ~~~~~~~
+
+" This command switches on syntax highlighting.
 syntax enable 
 
-" display
+" Same as :print, but precede each line with its line number.
 set number
 
-" search
+" SEARCH
+" ~~~~~~
+
+" When there is a previous search pattern, highlight all its matches.
 set hlsearch
+
+" the case of normal letters is ignored.
 set ignorecase
+
+" Override the 'ignorecase' option if the search pattern contains upper case
+" characters.
+set smartcase
+
+" While typing a search command, show where the pattern, as it was typed so far,
+" matches.
 set incsearch
 
-" indentation
+" INDENTATION
+" ~~~~~~~~~~~
+
+" In Insert mode: Use the appropriate number of spaces to insert a <Tab>. 
 set expandtab
+
+" Number of spaces that a <Tab> in the file counts for. 
 set tabstop=2
+
+" Number of spaces to use for each step of (auto)indent.  
 set shiftwidth=2
 
-" mappings
+" MAPPINGS
+" ~~~~~~~~
+
+" SEE: https://learnvimscriptthehardway.stevelosh.com/chapters/10.html <>
 inoremap jk <ESC>
 
-" pathogen
+" PATHOGEN
+" ~~~~~~~~
+
 execute pathogen#infect()
 
-" syntastic
+" SYNTASTIC
+" ~~~~~~~~~
+
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
