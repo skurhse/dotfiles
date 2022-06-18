@@ -1,5 +1,4 @@
-" REQ: Vim config for use with pathogen and syntastic. <skr 2021-12-35>
-" ..............................................................................
+" REQ: My vim 8 configuration. <skr 2020-06-18> 
 
 " DISPLAY
 " ~~~~~~~
@@ -53,21 +52,3 @@ set shiftwidth=2
 
 " SEE: https://learnvimscriptthehardway.stevelosh.com/chapters/10.html <>
 inoremap jk <ESC>
-
-" PATHOGEN
-" ~~~~~~~~
-
-execute pathogen#infect()
-
-" SYNTASTIC
-" ~~~~~~~~~
-
-" SEE: https://github.com/vim-syntastic/syntastic#3-recommended-settings <>
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
