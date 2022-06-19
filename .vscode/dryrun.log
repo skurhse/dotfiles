@@ -1,0 +1,5 @@
+make: Entering directory `/Users/srage/sxc/dotfile-rage'
+make: Leaving directory `/Users/srage/sxc/dotfile-rage'
+ 
+Makefile:3: *** missing separator.  Stop.
+

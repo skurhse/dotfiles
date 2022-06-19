@@ -1,4 +1,4 @@
-" REQ: My vim 8 configuration. <skr 2020-06-18> 
+" REQ: My vim 8 configuration. <skr 2022-06-18> 
 
 " DISPLAY
 " ~~~~~~~
