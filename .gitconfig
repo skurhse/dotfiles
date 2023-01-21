@@ -1,9 +1,7 @@
-## How-to Enumerate uuuotfiles:
 [credential "https://github.com"]
-	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [user]
-	email = hello@drruruu.dev
+	email = skurhse@rage.codes
 	name = Skurhse Rage 🌆🌃🌌
 [core]
 	editor = vim
